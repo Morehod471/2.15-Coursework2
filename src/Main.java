@@ -23,6 +23,8 @@ public class Main {
                 .entrySet().stream().sorted(comparingByValue(Comparator.reverseOrder()))
                 .limit(10)
                 .forEach(System.out::println);
+        System.out.println();
     }
+
 }
 
